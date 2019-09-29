@@ -1,0 +1,36 @@
+
+
+OPTION 1:
+In php.ini file (xampp/php/php.ini):
+
+memory_limit = 2500000M;
+upload_max_filesize = 2500M;
+upload_max_filesize=20000M;
+Max_execution_time = 300;
+max_input_time=300;
+post_max_size = 2000M;
+
+
+OPTION 2(Recommended):
+In htaccess paste this before <IfModule> Tag
+
+php_value post_max_size 2000M
+php_value upload_max_filesize 2500M
+php_value max_execution_time 600</p>>php_value max_input_time 600
+php_value memory_limit 2500000M
+&nbsp;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
