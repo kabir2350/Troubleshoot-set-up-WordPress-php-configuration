@@ -12,7 +12,7 @@ post_max_size = 2000M;
 
 
 OPTION 2(Recommended):
-In htaccess paste this before <IfModule> Tag
+In htaccess paste this before </IfModule> Tag
 
 
 
